@@ -1,0 +1,403 @@
+/*****COMMON CSS SECTION*****/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -outline: 0;
+  font-family Roboto,
+  sans-serif,
+  arial;
+}
+
+html,
+body {
+  font-size: 14px;
+  font-weight: 400;
+  background: #000000;
+  color: #fff;
+}
+
+.container {
+  width: 1100px;
+  margin: 0px auto;
+  display: table;
+}
+
+.width-33 {
+  width: 33%;
+  float: left;
+}
+
+.width-66 {
+  width: 66%;
+  float: left;
+}
+
+/*****MENU SECTION*****/
+.main-panel {
+  width: 100%;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  height: 100vh;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.span-col {
+  color: #ffbf35;
+}
+
+nav {
+  float: right;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 20px;
+  color: white;
+}
+
+/*****Main BANNER*****/
+.width-50 {
+  float: left;
+  width: 50%;
+}
+
+.banner-section {
+  width: 100%;
+  float: left;
+  margin-top: 25vh;
+}
+
+.banner-section h1 {
+  font-size: 48px;
+  margin-top: 10px;
+  font-weight: bolder;
+}
+
+.banner-section h2 {
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.banner-section a {
+  float: left;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 20px;
+  border-radius: 50%;
+  text-align: center;
+  border: 2px solid #ffbf35;
+  color: #ffbf35;
+  margin-left: 10px;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+}
+
+/*****Main BANNER IMAGE*****/
+.main-panel img {
+  margin-top: 10%;
+  width: 100%;
+  margin-left: 10%;
+}
+
+/*ABOUT US SECTION*/
+.main-section {
+  width: 100%;
+  float: left;
+  padding: 110px 0px 110px 0px;
+}
+
+.width-100 {
+  width: 100%;
+  float: left;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.heading-text {
+  width: 100%;
+  float: left;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #ffbf35;
+}
+
+.about-img {
+  width: 100%;
+  padding: 0px 50px;
+  margin-top: 20px;
+}
+
+.about-us {
+  width: 100%;
+  float: left;
+  padding: 20px;
+}
+
+.about-us p {
+  font-size: 16px;
+  margin-top: 15px;
+  line-height: 27px;
+}
+
+table {
+  width: 100%;
+}
+
+table th,
+table td {
+  font-size: 16px;
+  text-align: left;
+  padding: 5px 0px;
+}
+
+/*****SKILL SECTION*****/
+.main-section {
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heading-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-category {
+  margin-bottom: 10px;
+}
+
+.skill-category b {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+/*****EXPERIENCE SECTION*****/
+.bg-lightgrey {
+  background-color: #000000;
+}
+
+.edu-exp {
+  padding: 10px 0px;
+  width: 48%;
+  margin: 1%;
+  float: left;
+  padding-left: 10px;
+}
+
+.experience-list {
+  width: 100%;
+  float: left;
+  padding: 30px 10px;
+  background: #262626;
+  margin-bottom: 20px;
+}
+
+.experience-content {
+  width: 100%;
+  float: left;
+  margin-left: 10px;
+}
+
+.experience-content h2 {
+
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.experience-content h3 {
+  color: #ffbf35;
+  font-weight: 500;
+  margin-bottom: 2px;
+  font-size: 17px;
+}
+
+.experience-content p {
+  font-size: 15px;
+}
+
+/*SERVICE SECTION*/
+/*SERVICE SECTION*/
+.service-list {
+  padding: 40px;
+  margin-top: 35px;
+  background: #262626;
+  border-radius: 15px;
+  width: 94%;
+  float: left;
+}
+
+.service-list i {
+  font-size: 50px;
+  color: #ffbf35;
+  width: 70px;
+  float: left;
+}
+
+.service-list h3 {
+  font-size: 28px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+
+.service-list p {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+/* Project Content */
+.project-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.project-image {
+  width: 200px; /* Adjust size as needed */
+  height: auto;
+  border-radius: 10px;
+}
+
+.project-text {
+  flex: 1;
+}
+
+.project-text p {
+  margin-bottom: 10px;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: #ffbf35;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+/*PORTFOLIO SECTION*/
+.gallery {
+  width: 100%;
+  float: left;
+  margin-top: 30px;
+}
+.gallery img {
+  height: auto;
+  width: 95%;
+  margin-bottom: 20px;
+}
+/*****FOOTER SECTION*****/
+.footer {
+  background-color: #202020;
+  padding: 30px 0px 40px 0px;
+  width: 100%;
+  float: left;
+}
+.footer-sect {
+  color: #b3b3b3;
+}
+.footer-sect a {
+  color: #b3b3b3;
+  margin-left: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+}
+.social-icon a i {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #cdcdcd;
+  line-height: 50px;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff5f5;
+}
+
+.main-section {
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heading-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-category {
+  margin-bottom: 10px;
+}
+
+.skill-category b {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.achievements-list {
+  list-style: none;
+  padding: 0;
+}
+
+.achievements-list li {
+  background-color: #000000;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgb(232, 232, 232, 0.1);
+  font-size: 16px;
+}
+
+
